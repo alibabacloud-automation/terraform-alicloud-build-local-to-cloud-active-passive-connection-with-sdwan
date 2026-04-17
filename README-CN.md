@@ -83,12 +83,13 @@ module "complete" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3 |
+| <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | >= 1.200.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | n/a |
+| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | >= 1.200.0 |
 
 ## Modules
 
@@ -98,50 +99,50 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [alicloud_cen_instance.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_instance) | resource |
-| [alicloud_cen_route_map.in_vpn](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_route_map) | resource |
-| [alicloud_cen_route_map.out_vpn](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_route_map) | resource |
-| [alicloud_cen_transit_router.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router) | resource |
-| [alicloud_cen_transit_router_cidr.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_cidr) | resource |
-| [alicloud_cen_transit_router_route_table_association.business](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
-| [alicloud_cen_transit_router_route_table_association.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
-| [alicloud_cen_transit_router_route_table_association.transit](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
-| [alicloud_cen_transit_router_route_table_propagation.business](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_propagation) | resource |
-| [alicloud_cen_transit_router_route_table_propagation.transit](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_propagation) | resource |
-| [alicloud_cen_transit_router_route_table_propagation.vpn_m_attch_propagation](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_route_table_propagation) | resource |
-| [alicloud_cen_transit_router_vpc_attachment.business](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_vpc_attachment) | resource |
-| [alicloud_cen_transit_router_vpc_attachment.transit](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_vpc_attachment) | resource |
-| [alicloud_cen_transit_router_vpn_attachment.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/cen_transit_router_vpn_attachment) | resource |
-| [alicloud_ecs_network_interface.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/ecs_network_interface) | resource |
-| [alicloud_ecs_network_interface_attachment.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/ecs_network_interface_attachment) | resource |
-| [alicloud_instance.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/instance) | resource |
-| [alicloud_security_group.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/security_group) | resource |
-| [alicloud_security_group_rule.allow_all_tcp](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/security_group_rule) | resource |
-| [alicloud_security_group_rule.allow_all_udp](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/security_group_rule) | resource |
-| [alicloud_security_group_rule.fortigate_ingress_icmp](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/security_group_rule) | resource |
-| [alicloud_vpc.business](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vpc) | resource |
-| [alicloud_vpc.transit](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vpc) | resource |
-| [alicloud_vpn_customer_gateway.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vpn_customer_gateway) | resource |
-| [alicloud_vpn_gateway_vpn_attachment.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vpn_gateway_vpn_attachment) | resource |
-| [alicloud_vswitch.business](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vswitch) | resource |
-| [alicloud_vswitch.transit](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/resources/vswitch) | resource |
-| [alicloud_cen_transit_router_route_tables.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/data-sources/cen_transit_router_route_tables) | data source |
-| [alicloud_regions.default](https://registry.terraform.io/providers/hashicorp/alicloud/latest/docs/data-sources/regions) | data source |
+| [alicloud_cen_instance.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_instance) | resource |
+| [alicloud_cen_route_map.in_vpn](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_route_map) | resource |
+| [alicloud_cen_route_map.out_vpn](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_route_map) | resource |
+| [alicloud_cen_transit_router.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router) | resource |
+| [alicloud_cen_transit_router_cidr.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_cidr) | resource |
+| [alicloud_cen_transit_router_route_table_association.business](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
+| [alicloud_cen_transit_router_route_table_association.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
+| [alicloud_cen_transit_router_route_table_association.transit](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_association) | resource |
+| [alicloud_cen_transit_router_route_table_propagation.business](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_propagation) | resource |
+| [alicloud_cen_transit_router_route_table_propagation.transit](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_propagation) | resource |
+| [alicloud_cen_transit_router_route_table_propagation.vpn_m_attch_propagation](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_route_table_propagation) | resource |
+| [alicloud_cen_transit_router_vpc_attachment.business](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_vpc_attachment) | resource |
+| [alicloud_cen_transit_router_vpc_attachment.transit](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_vpc_attachment) | resource |
+| [alicloud_cen_transit_router_vpn_attachment.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/cen_transit_router_vpn_attachment) | resource |
+| [alicloud_ecs_network_interface.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/ecs_network_interface) | resource |
+| [alicloud_ecs_network_interface_attachment.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/ecs_network_interface_attachment) | resource |
+| [alicloud_instance.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/instance) | resource |
+| [alicloud_security_group.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/security_group) | resource |
+| [alicloud_security_group_rule.allow_all_tcp](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/security_group_rule) | resource |
+| [alicloud_security_group_rule.allow_all_udp](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/security_group_rule) | resource |
+| [alicloud_security_group_rule.fortigate_ingress_icmp](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/security_group_rule) | resource |
+| [alicloud_vpc.business](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vpc) | resource |
+| [alicloud_vpc.transit](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vpc) | resource |
+| [alicloud_vpn_customer_gateway.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vpn_customer_gateway) | resource |
+| [alicloud_vpn_gateway_vpn_attachment.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vpn_gateway_vpn_attachment) | resource |
+| [alicloud_vswitch.business](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vswitch) | resource |
+| [alicloud_vswitch.transit](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/resources/vswitch) | resource |
+| [alicloud_cen_transit_router_route_tables.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/data-sources/cen_transit_router_route_tables) | data source |
+| [alicloud_regions.default](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs/data-sources/regions) | data source |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_business_vpc"></a> [business\_vpc](#input\_business\_vpc) | The parameters of business vpc and vswitches. | <pre>object({<br>    vpc_name   = optional(string, null)<br>    cidr_block = string<br>    vswitches = list(object({<br>      vswitch_name = optional(string, null)<br>      cidr_block   = string<br>      zone_id      = string<br>    }))<br>  })</pre> | n/a | yes |
-| <a name="input_cen_config"></a> [cen\_config](#input\_cen\_config) | The parameters of cen. | <pre>object({<br>    cen_instance_name = optional(string, "sdwan-cen")<br>    description       = optional(string, null)<br>  })</pre> | `{}` | no |
-| <a name="input_cen_route_map"></a> [cen\_route\_map](#input\_cen\_route\_map) | The parameters of cen route map. | <pre>object({<br>    in = object({<br>      priority   = optional(number, 1)<br>      map_result = optional(string, "Permit")<br>      preference = optional(number, 1)<br>    })<br>    out = object({<br>      priority   = optional(number, 1)<br>      map_result = optional(string, "Permit")<br>      prepend_as_path = optional(list(string), ["1"])<br>    })<br>  })</pre> | <pre>{<br>  "in": {},<br>  "out": {}<br>}</pre> | no |
+| <a name="input_business_vpc"></a> [business\_vpc](#input\_business\_vpc) | The parameters of business vpc and vswitches. | <pre>object({<br/>    vpc_name   = optional(string, null)<br/>    cidr_block = string<br/>    vswitches = list(object({<br/>      vswitch_name = optional(string, null)<br/>      cidr_block   = string<br/>      zone_id      = string<br/>    }))<br/>  })</pre> | n/a | yes |
+| <a name="input_cen_config"></a> [cen\_config](#input\_cen\_config) | The parameters of cen. | <pre>object({<br/>    cen_instance_name = optional(string, "sdwan-cen")<br/>    description       = optional(string, null)<br/>  })</pre> | `{}` | no |
+| <a name="input_cen_route_map"></a> [cen\_route\_map](#input\_cen\_route\_map) | The parameters of cen route map. | <pre>object({<br/>    in = object({<br/>      priority   = optional(number, 1)<br/>      map_result = optional(string, "Permit")<br/>      preference = optional(number, 1)<br/>    })<br/>    out = object({<br/>      priority        = optional(number, 1)<br/>      map_result      = optional(string, "Permit")<br/>      prepend_as_path = optional(list(string), ["1"])<br/>    })<br/>  })</pre> | <pre>{<br/>  "in": {},<br/>  "out": {}<br/>}</pre> | no |
 | <a name="input_eni_name_prefix"></a> [eni\_name\_prefix](#input\_eni\_name\_prefix) | The name of ecs network interface. | `string` | `"eni"` | no |
-| <a name="input_instance_config"></a> [instance\_config](#input\_instance\_config) | The parameters of instance. | <pre>object({<br>    image_id                   = string<br>    instance_name              = optional(string, null)<br>    description                = optional(string, null)<br>    instance_charge_type       = optional(string, "PostPaid")<br>    instance_type              = optional(string, "ecs.c6.xlarge")<br>    password                   = optional(string, null)<br>    internet_max_bandwidth_out = optional(number, 100)<br>    internet_charge_type       = optional(string, "PayByTraffic")<br>  })</pre> | n/a | yes |
+| <a name="input_instance_config"></a> [instance\_config](#input\_instance\_config) | The parameters of instance. | <pre>object({<br/>    image_id                   = string<br/>    instance_name              = optional(string, null)<br/>    description                = optional(string, null)<br/>    instance_charge_type       = optional(string, "PostPaid")<br/>    instance_type              = optional(string, "ecs.c6.xlarge")<br/>    password                   = optional(string, null)<br/>    internet_max_bandwidth_out = optional(number, 100)<br/>    internet_charge_type       = optional(string, "PayByTraffic")<br/>  })</pre> | n/a | yes |
 | <a name="input_security_group_name"></a> [security\_group\_name](#input\_security\_group\_name) | The name of security group. | `string` | `null` | no |
 | <a name="input_transit_router_cidr"></a> [transit\_router\_cidr](#input\_transit\_router\_cidr) | The cidr of transit router. | `string` | n/a | yes |
-| <a name="input_transit_vpc"></a> [transit\_vpc](#input\_transit\_vpc) | The parameters of transit vpc and vswitches. | <pre>object({<br>    vpc_name   = optional(string, null)<br>    cidr_block = string<br>    vswitches = list(object({<br>      vswitch_name = optional(string, null)<br>      cidr_block   = string<br>      zone_id      = string<br>    }))<br>  })</pre> | n/a | yes |
-| <a name="input_vpc_customer_gateway"></a> [vpc\_customer\_gateway](#input\_vpc\_customer\_gateway) | The parameters of vpc customer gateway. | <pre>object({<br>    name_prefix = optional(string, null)<br>    asn         = optional(string, null)<br>  })</pre> | <pre>{<br>  "asn": "65534",<br>  "name_prefix": "cgw"<br>}</pre> | no |
-| <a name="input_vpn_attachment"></a> [vpn\_attachment](#input\_vpn\_attachment) | The parameters of the VPN attachment | <pre>object({<br>    local_subnet         = string<br>    remote_subnet        = string<br>    vpn_attachment_name  = optional(string, null)<br>    network_type         = optional(string, "private")<br>    effect_immediately   = optional(bool, true)<br>    enable_dpd           = optional(bool, true)<br>    enable_nat_traversal = optional(bool, true)<br>    ike_config = optional(list(object({<br>      ike_auth_alg = optional(string, "sha1")<br>      ike_enc_alg  = optional(string, "aes")<br>      ike_version  = optional(string, "ikev2")<br>      ike_mode     = optional(string, "main")<br>      ike_lifetime = optional(number, 86400)<br>      psk          = optional(string, "tfvpnattachment")<br>      ike_pfs      = optional(string, "group2")<br>    })), [{}])<br>    ipsec_config = optional(list(object({<br>      ipsec_pfs      = optional(string, "group2")<br>      ipsec_enc_alg  = optional(string, "aes")<br>      ipsec_auth_alg = optional(string, "sha1")<br>      ipsec_lifetime = optional(number, 86400)<br>    })), [{}])<br>    bgp_config = optional(list(object({<br>      enable       = optional(bool, true)<br>      local_asn    = optional(number, 45104)<br>      tunnel_cidr  = optional(string, "169.254.10.0/30")<br>      local_bgp_ip = optional(string, "169.254.10.1")<br>    })), [{}])<br>  })</pre> | n/a | yes |
+| <a name="input_transit_vpc"></a> [transit\_vpc](#input\_transit\_vpc) | The parameters of transit vpc and vswitches. | <pre>object({<br/>    vpc_name   = optional(string, null)<br/>    cidr_block = string<br/>    vswitches = list(object({<br/>      vswitch_name = optional(string, null)<br/>      cidr_block   = string<br/>      zone_id      = string<br/>    }))<br/>  })</pre> | n/a | yes |
+| <a name="input_vpc_customer_gateway"></a> [vpc\_customer\_gateway](#input\_vpc\_customer\_gateway) | The parameters of vpc customer gateway. | <pre>object({<br/>    name_prefix = optional(string, null)<br/>    asn         = optional(string, null)<br/>  })</pre> | <pre>{<br/>  "asn": "65534",<br/>  "name_prefix": "cgw"<br/>}</pre> | no |
+| <a name="input_vpn_attachment"></a> [vpn\_attachment](#input\_vpn\_attachment) | The parameters of the VPN attachment | <pre>object({<br/>    local_subnet         = string<br/>    remote_subnet        = string<br/>    vpn_attachment_name  = optional(string, null)<br/>    network_type         = optional(string, "private")<br/>    effect_immediately   = optional(bool, true)<br/>    enable_dpd           = optional(bool, true)<br/>    enable_nat_traversal = optional(bool, true)<br/>    ike_config = optional(list(object({<br/>      ike_auth_alg = optional(string, "sha1")<br/>      ike_enc_alg  = optional(string, "aes")<br/>      ike_version  = optional(string, "ikev2")<br/>      ike_mode     = optional(string, "main")<br/>      ike_lifetime = optional(number, 86400)<br/>      psk          = optional(string, "tfvpnattachment")<br/>      ike_pfs      = optional(string, "group2")<br/>    })), [{}])<br/>    ipsec_config = optional(list(object({<br/>      ipsec_pfs      = optional(string, "group2")<br/>      ipsec_enc_alg  = optional(string, "aes")<br/>      ipsec_auth_alg = optional(string, "sha1")<br/>      ipsec_lifetime = optional(number, 86400)<br/>    })), [{}])<br/>    bgp_config = optional(list(object({<br/>      enable       = optional(bool, true)<br/>      local_asn    = optional(number, 45104)<br/>      tunnel_cidr  = optional(string, "169.254.10.0/30")<br/>      local_bgp_ip = optional(string, "169.254.10.1")<br/>    })), [{}])<br/>  })</pre> | n/a | yes |
 
 ## Outputs
 
